@@ -1,0 +1,35 @@
+function bestPlayer (input) {
+    let i = 0;
+    let topGoalscorer = ``;
+    let topGoals = 0;
+    while (input[i] !== "END") {
+        let goalscorerName = input[i];
+        let goalsScored = Number(input[i + 1]);
+
+        if (goalsScored > topGoals) {
+            topGoals = goalsScored
+            topGoalscorer = goalscorerName
+        }
+
+        if (topGoals >= 10) {
+            break;
+        }
+        
+
+        i+= 2
+    }
+    console.log(`${topGoalscorer} is the best player!`)
+
+    if (topGoals >= 3) {
+        console.log(`He has scored ${topGoals} goals and made a hat-trick !!!`)
+    } else if (topGoals < 3) {
+        console.log(`He has scored ${topGoals} goals.`)
+    }
+}
+bestPlayer (["Neymar",
+"2",
+"Ronaldo",
+"1",
+"Messi",
+"3",
+"END"])

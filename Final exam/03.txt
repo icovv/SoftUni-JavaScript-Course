@@ -1,0 +1,41 @@
+function task (input) {
+    let people = Number(input[0]);
+    let season = input[1];
+    let price = 0;
+
+    switch(season){
+        case "spring":
+            if (people <= 5){
+                price += 50 * people;
+            } else if (people > 5){
+                price += 48.00 * people;
+            }
+            break;
+        case "summer":
+            if (people <= 5){
+                price += 48.50 * people;
+            } else if (people > 5){
+                price += 45.00 * people;
+            }
+            price -= price * (15/100)
+            break;
+        case "autumn":
+            if (people <= 5){
+                price += 60 * people;
+            } else if (people > 5){
+                price += 49.50 * people;
+            }
+            break;
+        case "winter":
+            if (people <= 5){
+                price += 86 * people;
+            } else if (people > 5){
+                price += 85 * people;
+            }
+            price += price * (8/100)
+            break;
+    }
+    console.log(`${price.toFixed(2)} leva.`);
+}
+task(["5",
+"spring"])

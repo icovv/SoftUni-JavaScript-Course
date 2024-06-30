@@ -1,0 +1,15 @@
+function task (input) {
+    let people = Number(input[0]);
+    let nightsCount = Number(input[1]) * 20;
+    let transportCardsCount = Number(input[2]) * 1.60;
+    let museumTickets = Number(input[3]) * 6;
+
+    let totalPrice = ((nightsCount + transportCardsCount + museumTickets) * people)
+    let finalPrice = totalPrice + (totalPrice * (25/100))
+
+    console.log(finalPrice.toFixed(2));
+}
+task (["20",
+"14",
+"30",
+"6"])

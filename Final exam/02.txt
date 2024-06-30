@@ -1,0 +1,20 @@
+function stand (input) {
+    let dailyBudget = Number(input[0]) * 5;
+    let dailySalary = Number(input[1]) * 5;
+    let dailyExpenses = Number(input[2]);
+    let giftPrice = Number(input[3]);
+
+    let savedMoney = (dailyBudget + dailySalary)- dailyExpenses;
+
+    if (savedMoney >= giftPrice) {
+        console.log(`Profit: ${savedMoney.toFixed(2)} BGN, the gift has been purchased.`);
+    } else if (savedMoney < giftPrice){
+        console.log(`Insufficient money: ${(giftPrice - savedMoney).toFixed(2)} BGN.`);
+    }
+    
+
+}
+stand (["15.20",
+"200.00",
+"7.30",
+"1500.12"])

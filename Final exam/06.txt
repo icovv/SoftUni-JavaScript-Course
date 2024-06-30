@@ -1,0 +1,26 @@
+function pin (input){
+    let maxNum1 = Number(input[0]);
+    let maxNum2 = Number(input[1]);
+    let maxNum3 = Number(input[2]);
+    let output = ``;
+
+    for (let num1 = 1; num1 <= maxNum1; num1 += 1){
+        if(num1 % 2 === 0){
+            for (let num2 = 2; num2 <= maxNum2; num2 += 1){
+                if (num2 === 2 || num2 === 3 || num2 === 5 || num2 === 7){
+                    for(let num3 = 1; num3 <= maxNum3; num3 += 1){
+                        if (num3 % 2 === 0){
+                            output = `${num1} ${num2} ${num3}`
+                            console.log(output)
+                        }
+                    }  
+        }
+        }
+        }
+    }
+}
+pin (["8",
+"2",
+"8"])
+
+
