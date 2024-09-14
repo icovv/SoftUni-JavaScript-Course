@@ -1,0 +1,9 @@
+header p{
+    color: silver;
+}
+header p time{
+    font-style: italic;
+}
+.span{
+    font-weight: bold;
+}
