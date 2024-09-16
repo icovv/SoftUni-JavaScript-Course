@@ -1,0 +1,24 @@
+h1{
+    color: blue
+}
+p{
+    font-size: 10px;
+}
+.highlight {
+    background-color: red;
+}
+#main-title{
+    color: green;
+}
+#special-paragraph {
+    font-style: italic;
+}
+div {
+    background-color: burlywood;
+}
+.uList{
+    list-style-type: circle;
+}
+.uList li {
+    color: red;
+}
