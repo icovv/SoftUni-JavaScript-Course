@@ -1,0 +1,15 @@
+p.highlightedP{
+    color: blue;
+    font-size: large;
+}
+div#highlightedD{
+    background-color: orange;
+    padding-left: 10px;
+}
+[type="text"]{
+    border-color: orange;
+}
+.secondClass{
+    font-style: italic;
+    font-weight: bold;
+}
