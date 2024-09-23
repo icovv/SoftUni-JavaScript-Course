@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+}
+div.section-wrapper{
+    border: 2px solid #A1D6A1;
+    width: 100%;
+}
+div.section-wrapper div.section-header,
+div.section-wrapper div.section-banner,
+div.section-wrapper div.section-articles,
+div.section-wrapper div.section-footer{
+    border: 2px solid black;
+    width: 90vw;
+    margin: 50px auto;
+}
+div.wrapper{
+    border: 2px solid #2424FF;
+    width: 70vw;
+    margin: 20px auto;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
