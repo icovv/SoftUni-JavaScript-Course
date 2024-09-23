@@ -1,0 +1,43 @@
+body{
+    background-color: #EBEBEB;
+    font-size: 1.5 rem;
+    font-family: Lato, sans-serif;
+}
+
+article.card{
+    width: 25vw;
+    margin: 30px auto;
+    border-radius: 5px;
+    box-shadow: rgba(17,12,46,0.15) 0px 48px 100px 0px;
+    overflow: hidden;
+    background-color: white;
+}
+div.img-container img{
+    width: 100%;
+}
+div.main-container{
+    width: 80%;
+    padding: 10px 40px;
+}
+div.main-container h2{
+    padding-bottom: 10px;
+}
+div.main-container h2,
+div.main-container p{
+    margin: 0px;
+}
+footer{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+footer p.bold{
+    font-weight: bold;
+}
+footer p.italic{
+    font-style: italic;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
