@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div.wrapper{
+    width: 80vw;
+    margin: 20px auto;
+    border: 2px solid silver;
+}
+div.wrapper details{
+    border-bottom: 2px solid silver;
+    padding: 20px 30px;
+}
+div.wrapper details:last-of-type{
+    border-bottom: none;
+}
+div.wrapper details summary {
+    font-weight: bold;
+}
+summary{
+    list-style-type: none;
+}
+
+summary:before {
+    display: inline-block;
+    content: '>';
+    margin-right: 0.5em;
+    font-weight: bold;
+}
+
+.wrapper details[open] summary {
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+.wrapper details[open] summary:before {
+    content: '^';
+    transform: rotate(180deg);
+}
