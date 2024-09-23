@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+section.section-banner{
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #eee;
+    background-image: url(/SoftUni-HTML-and-CSS/01_Introduction_to_HTML_&_CSS/Exercises/CSS-Box-Model-and-Typography/09-Component-Banner/09/images/image1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 600px;
+    position: relative;
+}
+section.section-banner header{
+    color: #fff;
+    font-size: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 0 0 1em #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
