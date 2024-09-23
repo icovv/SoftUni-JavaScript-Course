@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+div.wrapper{
+    border: 2px solid #A1D6A1;
+    width: 100%;
+}
+div.wrapper div.container-wrapper{
+    border: 2px solid #2424FF;
+    width: 80vw;
+    margin: 20px auto;
+}
+div.wrapper div.container-wrapper div{
+    border: 2px solid black;
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+    font-weight: bold;
+}
