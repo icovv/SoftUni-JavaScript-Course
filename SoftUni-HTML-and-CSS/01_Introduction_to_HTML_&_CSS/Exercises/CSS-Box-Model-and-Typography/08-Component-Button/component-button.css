@@ -1,0 +1,59 @@
+a,
+button{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.links a{
+    display: inline-block;
+    border: 2px solid silver;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+div.links a:first-of-type,
+div.links a:last-of-type{
+    background-color: silver;
+}
+a.second {
+    background-color: orange;
+}
+
+a.third{
+    background-color: #F9F9CC;
+}
+
+i{
+    padding-right: 5px;
+}
+
+div.button button{
+    display: inline-block;
+    border: 2px solid silver;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+    color: black;
+    font-weight: normal;
+}
+
+div.button button:first-of-type,
+div.button button:last-of-type{
+    background-color: silver;
+}
+button.second {
+    background-color: orange;
+}
+
+button.third{
+    background-color: #F9F9CC;
+}
+
+button.forth{
+    background-color: white;
+}
