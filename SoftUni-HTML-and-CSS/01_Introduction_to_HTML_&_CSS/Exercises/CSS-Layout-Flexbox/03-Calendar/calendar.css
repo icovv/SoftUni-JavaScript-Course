@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(238,238,238);
+    font-size: 20px;
+}
+
+div.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 40px auto;
+    padding: 3px;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+div.calendar{
+    border: 2px solid rgb(225,225,225);
+    border-radius: 5px;
+    display: flex;
+    flex-grow: 1;
+}
+div.workweek,
+div.reminders{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+div.workweek div,
+div.reminders div{
+    border: 1px solid rgb(225,225,225);
+}
+
+div.workweek{
+    flex: 0 0 80%;
+}
+div.reminders{
+    flex: 0 0 20%;
+}
+
+div.workweek div{
+    flex: 1 0 auto;
+    padding: 30px;
+}
+
+div.workweek div:nth-of-type(1),
+div.workweek div:nth-of-type(7){
+    flex: 0 0 100%;
+}
+
+div.reminders div {
+    flex: 0 0 100%;
+    padding-top: 40px;
+}
+
