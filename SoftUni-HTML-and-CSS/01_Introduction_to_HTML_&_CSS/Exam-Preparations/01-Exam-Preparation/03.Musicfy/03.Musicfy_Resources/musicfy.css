@@ -12,6 +12,11 @@ a {
 body{
     font-family: "Lato";
 }
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
 h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat';
 }
@@ -36,4 +41,204 @@ header nav ul {
 header nav ul li a {
     color: white;
 }
+.plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.backgroundColor{
+    background-color: #1db954;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+.plans h1{
+    padding-top: 40px;
+    color: white;
+    padding-bottom: 40px;
+}
+.plans img:last-of-type{
+    position: absolute;
+    top: 40px;
+    width: 47%;
+    left: 0;
+    z-index: -1;
+    height: 600px;
+}
+.planWrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.planWrapper .singlePlan{
+    flex: 0 0 calc(50% - 80px);
+    border: 1px solid #137836;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    gap:10px;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    overflow: hidden;
+}
+.planWrapper .singlePlan ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    padding-left: 50px;
+}
+.planWrapper .singlePlan h2{
+    opacity: 0.6;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.planWrapper .singlePlan:last-of-type h2{
+    margin-bottom: 1px
+}
+.planWrapper .singlePlan ul li {
+    list-style:circle;
+    opacity: 0.7;
+}
+.singlePlan a.button{
+    background-color: #1db954;
+    color: white;
+    font-weight: 800;
+    padding: 10px 40px;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+body > main > section.plans > div.planWrapper > div:nth-child(2) > a{
+    margin-top: 20px;
+}
+
+.planSection{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    font-size: 18px;
+    position: relative;
+}
+.singlePlan:first-of-type .planSection p:first-of-type::after{
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    content: "";
+    border: 0.1px solid white;
+    margin-left: 12px;
+    opacity: 0.7;
+}
+.singlePlan:last-of-type .planSection{
+    justify-content: center;
+}
+.planManager{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+.planManagerContent{
+    flex: 0 0 calc(55% - 15px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.planManagerContent ol {
+    display: flex;
+    flex-direction: column;
+}
+.planManagerContent h2{
+    font-size: 20px;
+}
+.planManagerContent p{
+    font-size: 15px;
+    opacity: 0.7;
+    width: 83%;
+}
+.imageWrapper img{
+    width: 70%;
+}
+.comparisonRow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+.comparisonRow h2{
+    font-size: 40px;
+}
+.comparisonRow > p{
+    opacity: 0.9;
+}
+.compareSection {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.compare{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+.compareSection .compare:nth-of-type(even){
+    background-color:#81d8a0;
+    border: 1px solid #81d8a0;
+}
+.compareSection .compare:nth-of-type(odd){
+    background-color:#cccbcb;
+    border: 1px solid #cccbcb;
+}
+.compareSection .compare:first-of-type{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.compareSection .compare:last-of-type{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+div.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 150px;
+    padding-right: 50px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px 0px 20px 0px;
+}
+
+
 
