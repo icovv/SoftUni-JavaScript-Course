@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Margarine&display=swap");
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Margarine";
+    background-color: #fff0e4;
+}
+.wrapper{
+    width: 1200px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    gap: 20px;
+}
+.wrapper .leftContent {
+    flex: 0 0 calc(30% - 20px);
+    border: 1px solid transparent;
+    background-color: #fff0e4;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px;
+}
+.leftContent .topContent{
+    border-bottom: 2px solid #d3cac2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.topContent h2{
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.position{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.bottomContentWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.adobe div{
+    margin-top: 10px;
+    width: 90%;
+    background-color: #2991e6;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+.photography div{
+    margin-top: 10px;
+    width: 80%;
+    background-color: #2991e6;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+.illustrator div{
+    margin-top: 10px;
+    width: 75%;
+    background-color: #2991e6;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+.media div{
+    margin-top: 10px;
+    width: 50%;
+    background-color: #2991e6;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+.wrapper .rightContent{
+    border: 1px solid transparent;
+    background-color: #fff0e4;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 525px;
+}
+.rightContent > h2{
+    text-align: center;
+    margin-top: 15px;
+}
+.frontEnd{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-bottom: 2px solid #d3cac2;
+    padding-bottom: 15px;
+}
+.frontEnd h2{
+    color: #66605b;
+    font-size: 18px;
+}
+.frontEnd p:first-of-type{
+    color: #2991e6;
+}
+.frontEnd p:last-of-type{
+    font-weight: 500;
+}
+.webDev{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-bottom: 2px solid #d3cac2;
+    padding-bottom: 15px;
+}
+.webDev h2{
+    color: #66605b;
+    font-size: 18px;
+}
+.webDev p:first-of-type{
+    color: #2991e6;
+}
+.webDev p:last-of-type{
+    font-weight: 500;
+}
+.designer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.designer h2{
+    color: #66605b;
+    font-size: 18px;
+}
+.designer p:first-of-type{
+    color: #2991e6;
+}
+.designer p:last-of-type{
+    font-weight: 500;
+}
+
+
