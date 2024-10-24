@@ -1,0 +1,109 @@
+@media (max-width: 600px) {
+    .placeholder{
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tm-header{
+        height: 200px;
+        bottom: 45px;
+    }
+    .tm-header-inner{
+        padding: 50px;
+        justify-content: center;
+    }
+    article.col-md-6.col-12 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 8px;
+    }
+    .tm-site-logo{
+        width: 80px;
+    }
+    .tm-cta-section{
+        width: 90%;
+    }
+    .tm-description-figure{
+        width: 100%;
+    }
+    .tm-gallery-page{
+        margin:auto
+    }
+    .row {
+        margin: auto;
+    }
+    .tm-gallery-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-lg-3, .col-md-4, .col-md-6, .col-sm-6, .col-12{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .tm-welcome-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 60px auto 40px auto;
+    }
+    .tm-section-title{
+        margin-left:0px;
+        font-size: 50px;
+        width: 80%;
+    }
+    .tm-welcome-section > p {
+        font-size: 24px;
+        width: 90%;
+    }
+    .tm-paging-link{
+        font-size: 25px;
+    }
+    .tm-paging-links ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+    .tm-gallery-item{
+        max-width: 360px;
+    }
+    
+    .tm-gallery-item figure figcaption h4{
+        text-align: center;
+        font-size: 30px;
+    }
+    .tm-gallery-item figure figcaption p{
+        font-size: 18px;
+    }
+    .tm-gallery-item figure figcaption p:last-of-type{
+        font-size: 35px;
+    }
+    article.col-md-6{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .tm-description-box {
+        margin-top:0px;
+
+    }
+    .tm-description-box h4{
+        font-size: 35px
+    }
+    .tm-description-box p{
+        font-size: 23px;
+    }
+    .tm-description-box > a {
+        font-size: 23px;
+    }
+    footer{
+        font-size: 23px;
+    }
+}
