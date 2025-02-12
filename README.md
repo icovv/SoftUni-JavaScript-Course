@@ -7,8 +7,8 @@ This repository includes the following courses I have attended in Softuni <br>
 -> JS Applications <br>
 -> JS Back-End (due to a crashed HDD I could not restore my homeworks and exams, however, you can find the certificate below) <br>
 -> HTML and CSS <br>
--> ReactJS was a final project based course and you can find the project here -> https://github.com/icovv/SoftUni-React-Project-July24
--> Angular was a final project based course and you can find the project here -> https://github.com/icovv/SoftUni-React-Project-July24
+-> ReactJS was a final project based course and you can find the project here -> https://github.com/icovv/SoftUni-React-Project-July24 <br>
+-> Angular was a final project based course and you can find the project here -> https://github.com/icovv/SoftUni-React-Project-July24 <br>
 
 **Certificates** <br>
 Programmming Basics -> https://softuni.bg/certificates/details/178243/45088b8e <br>
