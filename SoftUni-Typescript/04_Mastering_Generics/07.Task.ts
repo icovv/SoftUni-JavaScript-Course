@@ -51,7 +51,7 @@ class HolidayManager <T extends Holiday, K extends TravelVacation | MountainVaca
     listReservations(): string {
         let result: string[] = [];
 
-        Array.from(this.holidays.entries()).forEach(entry => `${entry[0].getInfo()} => ${entry[1]}`);
+        Array.from(this.holidays.entries()).forEach(entry => result.push(`${entry[0].getInfo()} => ${entry[1]}`));
 
         return result.join('\n')
     }

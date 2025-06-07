@@ -49,7 +49,7 @@ class HolidayManager {
     }
     listReservations() {
         let result = [];
-        Array.from(this.holidays.entries()).forEach(entry => `${entry[0].getInfo()} => ${entry[1]}`);
+        Array.from(this.holidays.entries()).forEach(entry => result.push(`${entry[0].getInfo()} => ${entry[1]}`));
         return result.join('\n');
     }
 }
